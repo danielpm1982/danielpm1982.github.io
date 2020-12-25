@@ -1,0 +1,78 @@
+body{
+    background-color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    line-height: 1.5;
+    color: white;
+    margin: 2em 0em 0em 0em;
+}
+header#headerMainPage{
+    font-size: 1.5em;
+}
+h4#H4ElementDateTime{
+    margin-top: 1em;
+}
+section#sectionImageMainPage{
+    margin: 3em auto 2em auto;
+    width: 60%;
+}
+section#sectionContentList{
+    width: 60%;
+    margin: auto;
+    font-size: 1.5em;
+    line-height: 3;
+}
+section#sectionCourseMain{
+    margin: 2em auto 2em auto;
+    width: 60%;
+}
+section#sectionCourseMain article#article1{
+    margin: 0em auto 2em auto;
+}
+section#sectionCourseMain article#article1 iframe{
+    width: 40em;
+    height: 20em;
+}
+section#sectionCourseMain article#article2{
+    font-size: 1.3em;
+    line-height: 2;
+    width: 100%;
+    margin: 0em auto 0em auto;
+}
+section#sectionLinks{
+    margin: 2em auto 2em auto;
+    width: 60%;
+    font-size: 1.3em;
+    line-height: 2;
+}
+img#allTechnologiesImg{
+    width: 100%;
+}
+a{
+    text-decoration: none;
+}
+a:link{
+    color: white;
+}
+a.black:link{
+    color: black;
+}
+a:visited{
+    color: white;
+}
+a:hover,a:focus{
+    color: lightskyblue;;
+}
+footer{
+    text-align: center;
+    font-size: 1em;
+    width: 60%;
+    font-family: monospace;
+    margin: 3em auto 4em auto;
+}
+footer#footerMainPage{
+    text-align: left;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    width: 58%;
+}

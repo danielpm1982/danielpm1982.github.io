@@ -1,0 +1,25 @@
+{
+  "name": "danielpm1982.github.io",
+  "version": "1.0.0",
+  "description": "danielpm1982.github.io Website",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc-init": "tsc --init",
+    "tsc-compile": "./node_modules/.bin/tsc",
+    "tsc-compile-win": ".\\node_modules\\.bin\\tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/danielpm1982/danielpm1982.github.io.git"
+  },
+  "author": "Daniel Pinheiro <danielpm1982@gmail.com> <www.danielpm1982.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/danielpm1982/danielpm1982.github.io/issues"
+  },
+  "homepage": "https://github.com/danielpm1982/danielpm1982.github.io#readme",
+  "devDependencies": {
+    "typescript": "^4.1.3"
+  }
+}

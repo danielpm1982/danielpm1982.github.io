@@ -1,0 +1,48 @@
+body{
+    margin: 0em 0em 3em 0em;
+}
+header#headerMainPage{
+    font-size: 0.8em;
+}
+h4#H4ElementDateTime{
+    margin-top: 1em;
+    margin-bottom: 1em;
+    font-size: 0.5;
+}
+section#sectionImageMainPage{
+    margin: 2em auto 2em auto;
+    width: 100%;
+}
+section#sectionContentList{
+    width: 95%;
+    margin: 1.5em auto 1em auto;
+    font-size: 1.1em;
+    line-height: 1.5;
+}
+section#sectionCourseMain{
+    margin: 1em auto 1em auto;
+    width: 100%;
+}
+section#sectionCourseMain article#article1{
+    margin: 1.5em auto 1.2em auto;
+}
+section#sectionCourseMain article#article1 iframe{
+    width: 100%;
+}
+section#sectionCourseMain article#article2{
+    font-size: 1.1em;
+    line-height: 1.5;
+    width: 95%;
+}
+section#sectionLinks{
+    margin: 1em auto 1em auto;
+    font-size: 1.1em;
+    line-height: 2;
+}
+footer{
+    font-size: 0.7em;
+    width: 95%;
+}
+footer#footerMainPage{
+    width: 92%;
+}
