@@ -1,12 +1,7 @@
-body{
-    margin: 0em 0em 3em 0em;
-}
 header#headerMainPage{
     font-size: 0.8em;
 }
 h4#H4ElementDateTime{
-    margin-top: 1em;
-    margin-bottom: 1em;
     font-size: 0.5;
 }
 section#sectionImageMainPage{
@@ -14,10 +9,41 @@ section#sectionImageMainPage{
     width: 100%;
 }
 section#sectionContentList{
-    width: 95%;
-    margin: 1.5em auto 1em auto;
-    font-size: 1.1em;
-    line-height: 1.5;
+    width: 100%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.container {
+    grid-template-columns: repeat(1, 1fr);
+}
+.container > a{
+  width: 100%;
+  margin-bottom: 1em;
+}
+.container > a > img.vertical-img{
+    width: 100%;
+    height: 15em;
+}
+.container > a > img.horizontal-img{
+    width: 100%;
+    height: 10em;
+}
+.container-article > a, .container-apps > a{
+    width: 100%;
+    margin-bottom: 1em;
+}
+.container-article > a > img.vertical-img, .container-apps > a > img.vertical-img{
+    width: 100%;
+    height: 15em;
+}
+.container-article > a > img.horizontal-img, .container-apps > a > img.horizontal-img{
+    width: 100%;
+    height: 10em;
+}
+.container-article > a > p, .container-apps > a > p{
+    padding: 0.6em 0em 0.6em 0em;
+    font-size: 0.7em;
 }
 section#sectionCourseMain{
     margin: 1em auto 1em auto;
@@ -37,7 +63,6 @@ section#sectionCourseMain article#article2{
 section#sectionLinks{
     margin: 1em auto 1em auto;
     font-size: 1.1em;
-    line-height: 2;
 }
 footer{
     font-size: 0.7em;
