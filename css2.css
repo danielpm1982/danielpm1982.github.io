@@ -50,7 +50,7 @@ section#sectionCourseMain{
     width: 100%;
 }
 section#sectionCourseMain article#article1{
-    margin: 1.5em auto 1.2em auto;
+    margin: 1.5em auto 2.5em auto;
 }
 section#sectionCourseMain article#article1 iframe{
     width: 100%;
@@ -58,11 +58,22 @@ section#sectionCourseMain article#article1 iframe{
 section#sectionCourseMain article#article2{
     font-size: 1.1em;
     line-height: 1.5;
-    width: 95%;
+    margin-bottom: 2em;
 }
-section#sectionLinks{
-    margin: 1em auto 1em auto;
-    font-size: 1.1em;
+section#sectionCourseMain article#article2 p{
+    font-size: 1em;
+    width: 88%;
+}
+section#sectionCourseMain article#article3 img.vertical-img{
+    margin-bottom: 1em;
+    width: 15%;
+}
+section#sectionCourseMain article#article3 img.horizontal-img{
+    margin-bottom: 1.5em;
+    width: 100%;
+}
+section#sectionCourseMain article#article3 img.home-img{
+    width: 100%;
 }
 footer{
     font-size: 0.7em;

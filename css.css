@@ -76,7 +76,7 @@ section#sectionCourseMain{
     width: 60%;
 }
 section#sectionCourseMain article#article1{
-    margin: 0em auto 2em auto;
+    margin: 3em auto 5em auto;
 }
 section#sectionCourseMain article#article1 iframe{
     width: 40em;
@@ -86,13 +86,31 @@ section#sectionCourseMain article#article2{
     font-size: 1.3em;
     line-height: 2;
     width: 100%;
+    margin: 0em auto 5em auto;
+}
+section#sectionCourseMain article#article2 > p{
+    padding: 0em 1em 0em 1em;
+    width: 95.5%;
+    margin: auto;
+    font-size: 1.2em;
+    background-color: purple;
+    text-align: justify;
+}
+section#sectionCourseMain article#article3{
+    width: 100%;
     margin: 0em auto 0em auto;
 }
-section#sectionLinks{
-    margin: 2em auto 2em auto;
-    width: 60%;
-    font-size: 1.3em;
-    line-height: 2;
+article#article3 img.vertical-img{
+    margin: 0em 0em 2em 0em;
+    width: 12%;
+}
+article#article3 img.horizontal-img{
+    margin: 0em 0em 5em 0em;
+    width: 70%;
+}
+article#article3 img.home-img{
+    margin: 3em 0em 0em 0em;
+    width: 70%;
 }
 img#allTechnologiesImg{
     width: 100%;
