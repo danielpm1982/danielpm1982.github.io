@@ -9,7 +9,7 @@ const setH4ElementDateTime = function(): void {
 function setAllTechnologiesImg(): void{
     const allTechnologiesImg = document.getElementById("allTechnologiesImg")
     allTechnologiesImg!.onclick = (e: Event) => {
-        document.location.assign("/content.html")
+        document.location.assign("/content/content.html")
     }
 }
 function setSecurityInfoParagraph(): void{

@@ -10,7 +10,7 @@ const setH4ElementDateTime = function () {
 function setAllTechnologiesImg() {
     const allTechnologiesImg = document.getElementById("allTechnologiesImg");
     allTechnologiesImg.onclick = (e) => {
-        document.location.assign("/content.html");
+        document.location.assign("/content/content.html");
     };
 }
 function setSecurityInfoParagraph() {

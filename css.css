@@ -65,9 +65,9 @@ section#sectionContentList{
     height: 18em;
 }
 .container-article > a > p, .container-apps > a > p{
-    width: 100%;
+    padding: 0.6em 0.4em 0.6em 0.4em;
+    width: 97,5%;
     margin: auto;
-    padding: 0.6em 0em 0.6em 0em;
     font-size: 1.2em;
     background-color: purple;
 }
