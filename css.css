@@ -1,3 +1,4 @@
+/* ALL PAGES */
 body{
     background-color: black;
     font-family: Arial, Helvetica, sans-serif;
@@ -6,114 +7,6 @@ body{
     color: white;
     width:99%;
     margin: auto;
-}
-header#headerMainPage{
-    font-size: 1.5em;
-}
-h4#H4ElementDateTime{
-    margin-top: 1em;
-}
-section#sectionImageMainPage{
-    margin: 3em auto 2em auto;
-    width: 60%;
-}
-section#sectionContentList{
-    width: 70%;
-    font-size: 1.5em;
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-.container {
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-template-rows: auto;
-    width: 100%;
-    margin: auto;
-}
-.container > a {
-    width: 96.5%;
-    margin: auto;
-    margin-bottom: 1.5em;
-}
-.container > a > img.vertical-img{
-    width: 96.5%;
-    height: 100%;
-}
-.container > a > img.horizontal-img{
-    width: 97%;
-    height: 15em;
-}
-.container-article, .container-apps {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    width: 100%;
-    margin: auto;
-}
-.container-article > a, .container-apps > a{
-    width: 60%;
-    margin: auto;
-    margin-bottom: 2.5em;
-}
-.container-article > a > img.vertical-img, .container-apps > a > img.vertical-img{
-    width: 100%;
-    height: 100%;
-}
-.container-article > a > img.horizontal-img, .container-apps > a > img.horizontal-img{
-    width: 100%;
-    height: 18em;
-}
-.container-article > a > p, .container-apps > a > p{
-    padding: 0.6em 0.4em 0.6em 0.4em;
-    width: 97,5%;
-    margin: auto;
-    font-size: 1.2em;
-    background-color: purple;
-}
-section#sectionCourseMain{
-    margin: 2em auto 2em auto;
-    width: 60%;
-}
-section#sectionCourseMain article#article1{
-    margin: 3em auto 5em auto;
-}
-section#sectionCourseMain article#article1 iframe{
-    width: 40em;
-    height: 20em;
-}
-section#sectionCourseMain article#article2{
-    font-size: 1.3em;
-    line-height: 2;
-    width: 100%;
-    margin: 0em auto 5em auto;
-}
-section#sectionCourseMain article#article2 > p{
-    padding: 0em 1em 0em 1em;
-    width: 95.5%;
-    margin: auto;
-    font-size: 1.2em;
-    background-color: purple;
-    text-align: justify;
-}
-section#sectionCourseMain article#article3{
-    width: 100%;
-    margin: 0em auto 0em auto;
-}
-article#article3 img.vertical-img{
-    margin: 0em 0em 2em 0em;
-    width: 12%;
-}
-article#article3 img.horizontal-img{
-    margin: 0em 0em 5em 0em;
-    width: 70%;
-}
-article#article3 img.home-img{
-    margin: 3em 0em 0em 0em;
-    width: 70%;
-}
-img#allTechnologiesImg{
-    width: 100%;
 }
 a{
     text-decoration: none;
@@ -137,9 +30,126 @@ footer{
     font-family: monospace;
     margin: 3em auto 4em auto;
 }
-footer#footerMainPage{
-    text-align: left;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    width: 58%;
+
+/*INDEX.HTML PAGE*/
+header#headerMainPage{
+    font-size: 1.5em;
+}
+h4#H4ElementDateTime{
+    margin-top: 1em;
+}
+section#sectionImageMainPage{
+    margin: 3em auto 2em auto;
+    width: 60%;
+}
+img#allTechnologiesImg{
+    width: 100%;
+}
+
+/*CONTENT.HTML PAGE and related same-package pages*/
+section#sectionContentList{
+    width: 70%;
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+section#sectionContentList .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: auto;
+    width: 100%;
+    margin: auto;
+}section#sectionContentList .container a {
+    width: 96.5%;
+    margin: auto;
+    margin-bottom: 1.5em;
+}
+section#sectionContentList .container img.vertical-img{
+    width: 96.5%;
+    height: 100%;
+}
+section#sectionContentList .container img.horizontal-img{
+    width: 97%;
+    height: 15em;
+}
+section#sectionContentList .container-mono {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    width: 100%;
+    margin: auto;
+}
+section#sectionContentList .container-mono div{
+    width: 60%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+section#sectionContentList .container-mono img.vertical-img{
+    width: 100%;
+    height: 30em;
+}
+section#sectionContentList .container-mono img.horizontal-img{
+    width: 100%;
+    height: 20em;
+}
+section#sectionContentList .container-mono p{
+    padding: 0.6em 0.4em 0.6em 0.4em;
+    width: 97,5%;
+    margin: auto;
+    margin-top: 0.5em;
+    margin-bottom: 0.85em;
+    font-size: 1.2em;
+    background-color: purple;
+}
+
+/*DOCKER.HTML and related same-package pages*/
+section#sectionCourse{
+    width: 70%;
+    font-size: 1.5em;
+    margin: auto;
+    margin-top: 2em;
+    margin-bottom: 2em;
+}
+section#sectionCourse .container-mono {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: auto;
+    width: 100%;
+    margin: auto;
+}
+section#sectionCourse .container-mono div{
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2em;
+}
+section#sectionCourse .container-mono iframe{
+    width: 100%;
+    height: 25em;
+}
+section#sectionCourse .container-mono p{
+    padding: 0.6em 0.4em 0.6em 0.4em;
+    width: 98%;
+    margin: auto;
+    font-size: 1.2em;
+    background-color: transparent;
+    text-align: justify;
+}
+section#sectionCourse .container-mono a p{
+    width: 73%;
+    margin-top: 0.5em;
+    margin-bottom: 0.85em;
+    background-color: purple;
+    text-align: center;
+}
+section#sectionCourse .container-mono #symbol-img{
+    width: 5em;
+    height: 6.5em;
+}section#sectionCourse .container-mono img.vertical-img{
+    width: 75%;
+    height: 30em;
+}
+section#sectionCourse .container-mono img.horizontal-img{
+    width: 75%;
+    height: 10em;
 }
