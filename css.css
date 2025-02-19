@@ -56,11 +56,12 @@ section#sectionContentList{
 }
 section#sectionContentList .container {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 2fr);
     grid-template-rows: auto;
     width: 100%;
     margin: auto;
-}section#sectionContentList .container a {
+}
+section#sectionContentList .container a {
     width: 96.5%;
     margin: auto;
     margin-bottom: 1.5em;
@@ -152,4 +153,75 @@ section#sectionCourse .container-mono #symbol-img{
 section#sectionCourse .container-mono img.horizontal-img{
     width: 75%;
     height: 10em;
+}
+
+/* eucharistic.html page*/
+#eucharistic{
+    width: 80%;
+    text-align: justify;
+    margin: auto;
+    margin-bottom: 7em;
+}
+#eucharistic div.central{
+    text-align: center;
+    font-size: 1.2em;
+    width: 60%;
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 3em;
+}
+#eucharistic div.central iframe{
+    width: 100%;
+    height: 25em;
+}
+#eucharistic div.central img{
+    width: 97%;
+    height: 25em;
+}
+#eucharistic h1{
+    font-size: 3em;
+    text-align: center;
+}
+#eucharistic h2{
+    font-size: 2em;
+}
+#eucharistic h3{
+    font-size: 1.5em;
+    text-align: center;
+}
+#eucharistic h3#red{
+    font-size: 1.5em;
+    background-color: red;
+    text-align: center;
+    font-style: italic;
+    padding: 1em;
+}
+#eucharistic h3#green{
+    font-size: 1.5em;
+    background-color: green;
+    text-align: center;
+    font-style: italic;
+    padding: 1em;
+}
+#eucharistic #email{
+    font-size: 1.7em;
+    border: white dashed thin;
+    width: 45%;
+    margin: auto;
+    padding: 1em;
+    color: green;
+}
+#eucharistic #email a{
+    color: green;
+}
+#eucharistic a{
+    margin: auto;
+    text-align: center;
+    height: 18em;
+}
+#eucharistic img{
+    height: 13em;
+}
+#eucharistic #sectionContentList{
+    width: 100%;
 }
