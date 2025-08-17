@@ -46,118 +46,72 @@ img#allTechnologiesImg{
     width: 100%;
 }
 
-/*CONTENT.HTML PAGE and related same-package pages*/
-section#sectionContentList{
-    width: 70%;
+/*CONTENT.HTML, DOCKER.HTML and related pages*/
+section{
+    width: 90%;
     font-size: 1.5em;
     margin: auto;
     margin-top: 2em;
     margin-bottom: 2em;
 }
-section#sectionContentList .container {
+section .container-two-column {
     display: grid;
     grid-template-columns: repeat(2, 2fr);
     grid-template-rows: auto;
     width: 100%;
     margin: auto;
 }
-section#sectionContentList .container a {
-    width: 96.5%;
-    margin: auto;
-    margin-bottom: 1.5em;
+section .container-two-column img{
+    width: 95%;
+    height: 23em;
+    padding-bottom: 1.5em;
 }
-section#sectionContentList .container img.vertical-img{
-    width: 96.5%;
-    height: 100%;
-}
-section#sectionContentList .container img.horizontal-img{
-    width: 97%;
-    height: 15em;
-}
-section#sectionContentList .container-mono {
+section .container-one-column {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: auto;
     width: 100%;
     margin: auto;
 }
-section#sectionContentList .container-mono div{
+section .container-one-column img{
     width: 60%;
-    margin: auto;
-    margin-bottom: 2em;
+    height: 25em;
+    padding-bottom: 1.5em;
 }
-section#sectionContentList .container-mono img.vertical-img{
-    width: 100%;
-    height: 30em;
-}
-section#sectionContentList .container-mono img.horizontal-img{
-    width: 100%;
-    height: 20em;
-}
-section#sectionContentList .container-mono p{
+section .container-one-column p{
     padding: 0.6em 0.4em 0.6em 0.4em;
     width: 97,5%;
     margin: auto;
     margin-top: 0.5em;
-    margin-bottom: 0.85em;
+    margin-bottom: 2.5em;
     font-size: 1.2em;
-    background-color: purple;
-}
-
-/*DOCKER.HTML and related same-package pages*/
-section#sectionCourse{
-    width: 70%;
-    font-size: 1.5em;
-    margin: auto;
-    margin-top: 2em;
-    margin-bottom: 2em;
-}
-section#sectionCourse .container-mono {
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    grid-template-rows: auto;
-    width: 100%;
-    margin: auto;
-}
-section#sectionCourse .container-mono div{
-    width: 80%;
-    margin: auto;
-    margin-bottom: 2em;
-}
-section#sectionCourse .container-mono iframe{
-    width: 100%;
-    height: 25em;
-}
-section#sectionCourse .container-mono p{
-    padding: 0.6em 0.4em 0.6em 0.4em;
-    width: 98%;
-    margin: auto;
-    font-size: 1.2em;
-    background-color: transparent;
     text-align: justify;
 }
-section#sectionCourse .container-mono a p{
-    width: 73%;
-    margin-top: 0.5em;
-    margin-bottom: 0.85em;
+section .container-one-column a p{
+    width: 59%;
+    margin-top: -1em;
+    margin-bottom: 1.5em;
     background-color: purple;
     text-align: center;
 }
-section#sectionCourse .container-mono #symbol-img{
+
+/*DOCKER.HTML and related same-package pages*/
+section .container-one-column iframe{
+    width: 71.5%;
+    height: 25em;
+}
+section .container-one-column #pdf-img{
     width: 5em;
     height: 6.5em;
-}section#sectionCourse .container-mono img.vertical-img{
-    width: 75%;
-    height: 30em;
 }
-section#sectionCourse .container-mono img.horizontal-img{
-    width: 75%;
+section .container-one-column #ticket-img{
+    width: 60%;
     height: 10em;
 }
 
-/* eucharistic.html page*/
+/*EUCHARISTIC.HTML*/
 #eucharistic{
-    width: 80%;
+    width: 90%;
     text-align: justify;
     margin: auto;
     margin-bottom: 7em;
@@ -217,11 +171,18 @@ section#sectionCourse .container-mono img.horizontal-img{
 #eucharistic a{
     margin: auto;
     text-align: center;
-    height: 18em;
+    height: 30em;
+    width: 90%;
+    margin: auto;
 }
 #eucharistic img{
-    height: 13em;
+    margin: 0em;
+    padding: 0em;
 }
-#eucharistic #sectionContentList{
+#eucharistic img, #eucharistic iframe{
+    height: 80%;
+    margin-bottom: 0em;
+}
+#eucharistic section{
     width: 100%;
 }

@@ -1,89 +1,69 @@
 /*INDEX.HTML PAGE*/
 header#headerMainPage{
-    font-size: 0.9em;
+    font-size: 1em;
 }
 section#sectionImageMainPage{
-    margin: 3em auto 2em auto;
+    margin: 2em auto 2em auto;
     width: 100%;
 }
-/*CONTENT.HTML PAGE and related same-package pages*/
-section#sectionContentList{
+/*CONTENT.HTML, DOCKER.HTML and related pages*/
+section{
     width: 100%;
     margin-top: 1em;
     margin-bottom: 1em;
 }
-section#sectionContentList .container {
+section .container-two-column {
     grid-template-columns: repeat(1, 1fr);
     width: 100%;
-}section#sectionContentList .container a {
+}
+section .container-two-column a {
     width: 100%;
     margin-bottom: 1em;
 }
-section#sectionContentList .container img.vertical-img{
+section .container-two-column img{
     width: 100%;
-}
-section#sectionContentList .container img.horizontal-img{
-    width: 100%;
-    height: 11em;
-}
-section#sectionContentList .container-mono div{
-    width: 100%;
-    margin-bottom: 1em;
-}
-section#sectionContentList .container-mono img.vertical-img{
+    padding: 0;
     height: 15em;
 }
-section#sectionContentList .container-mono img.horizontal-img{
-    height: 11em;
+section .container-one-column {
+    grid-template-columns: repeat(1, 1fr);
+    width: 100%;
 }
-section#sectionContentList .container-mono p{
-    padding: 0.4em 0.3em 0.4em 0.3em;
-    width: 97%;
-    margin-top: 0.2em;
-    margin-bottom: 0.55em;
-    font-size: 0.9em;
+section .container-one-column a {
+    width: 100%;
+    margin-bottom: 1em;
 }
-section#sectionContentList .container-mono p#long-text-link{
-    padding: 0.4em 0.3em 0.4em 0.3em;
-    width: 97%;
-    margin-top: 0.2em;
-    margin-bottom: 0.55em;
+section .container-one-column img{
+    width: 100%;
+    height: 15em;
+    padding-bottom: 1em;
+}
+section .container-one-column p{
+    margin-bottom: 1.5em;
     font-size: 0.8em;
+}
+section .container-one-column a p{
+    padding: 0.4em 0.3em 0.4em 0.3em;
+    width: 97%;
+    font-size: 0.8em;
+    margin-top: -1em;
+    margin-bottom: 1.5em;
 }
 
 /*DOCKER.HTML and related same-package pages*/
-section#sectionCourse{
+section .container-one-column iframe{
     width: 100%;
-    font-size: 0.9em;
-    margin-top: 1em;
-    margin-bottom: 1em;
+    height: 18em;
 }
-section#sectionCourse .container-mono{
-    margin-top: 1em;
+section .container-one-column #pdf-img{
+    width: 4em;
+    height:5em;
 }
-section#sectionCourse .container-mono div{
+section .container-one-column #ticket-img{
     width: 100%;
+    height: 5em;
 }
-section#sectionCourse .container-mono iframe{
-    height: 20em;
-    margin-top: 1em;
-}
-section#sectionCourse .container-mono p{
-    width: 85%;
-}
-section#sectionCourse .container-mono a p{
-    width: 96%;
-    margin-bottom: 0.85em;
-    font-size: 1.2em;
-}
-section#sectionCourse .container-mono img.vertical-img{
-    width: 100%;
-    height: 23em;
-}
-section#sectionCourse .container-mono img.horizontal-img{
-    width: 100%;
-    height: 11em;
-}
+
 /* eucharistic.html page*/
 #eucharistic{
     width: 97%;
@@ -114,29 +94,23 @@ section#sectionCourse .container-mono img.horizontal-img{
     font-size: 1.1em;
     width: 90%;
 }
-#eucharistic img{
-    height: 15em;
+#eucharistic .container-two-column img{
+    height: 16em;
     width: 10em;
     margin-bottom: 1em;
     margin-top: 1em;
 }
-#eucharistic #sectionContentList{
-    width: 100%;
+#eucharistic .container-two-column a {
+     width: 100%;
+     height: 22em;
+     margin-bottom: 1em;
 }
-#eucharistic a{
-    height: 20em;
-    width: 100%;
-}
-#eucharistic #sectionContentList a{
-    margin-bottom: 1em;
-    height: 23em;
-}
-#eucharistic #sectionContentList a iframe{
+#eucharistic .container-two-column a iframe{
     width: 90%;
     height: 18em;
 }
-#eucharistic #sectionContentList a p{
+#eucharistic .container-two-column a p{
     width: 90%;
     margin: auto;
-    font-size: 0.9em;
+    font-size: 0.8em;
 }
