@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset='utf-8'>
+        <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+        <title>AI Agent Gemini</title>
+        <meta name='viewport' content='width=device-width, initial-scale=1'>
+        <link rel="apple-touch-icon" sizes="180x180" href="/icon/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/icon/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/icon/favicon-16x16.png">
+        <link rel="manifest" href="/icon/site.webmanifest">
+        <link rel="mask-icon" href="/icon/safari-pinned-tab.svg" color="#5bbad5">
+        <link rel="shortcut icon" href="/icon/favicon.ico">
+        <meta name="msapplication-TileColor" content="#da532c">
+        <meta name="msapplication-config" content="/icon/browserconfig.xml">
+        <meta name="theme-color" content="#ffffff">
+        <link rel="stylesheet" type="text/css" href="../../css.css" />
+        <link rel="stylesheet" type="text/css" href="../../css2.css" media="screen and (max-width:851px)"/>
+    </head>
+    <body>
+        <header id="headerMainPage">
+            <h1>Creating an AI Agent with Google Gemini LLM<br>(Python, LangChain, LangGraph, RAG)</h1>
+        </header>
+        <section>
+            <div class="container-one-column">
+                <div>
+                    <a href="https://colab.research.google.com/drive/1Yctdn_zHHQEzyIhSL6ODTgrskv_VKE_z">
+                        <img src="../../img/ai-agent-gemini.png" title="AI Agent Gemini Colab Source Code" alt="AI Agent Gemini Colab Source Code" />
+                    </a>
+                </div>
+                <div>
+                    <p>
+                        Hello guys !!
+                        I've just finished implementing this Gemini AI Agent, customized with Retrieval-Augmented Generation (RAG) training, and built with LangChain and LangGraph. All that coded in Python.
+                        This Generative AI Agent would manage a sample scenario of Client Support for a company site. For now, there are only some few sample policies defined, at three sample pdf files, which could be updated later, or be added with additional local or remote further data/information, in order to increase the "knowledge" of the model and its ability to respond to more questions. The model was set to reason only based on the custom information passed through the policies' pdf files, and not on previous Google general data trainings - this helps avoid AI hallucinations when working with specific local tasks.
+                        In this project, we've used Google Gemini, Google Colab (Jupyter Notebook), Python and the following specific Python libs/modules:<br><br>
+                        - google.colab<br>
+                        - langchain_google_genai<br>
+                        - pydantic<br>
+                        - typing<br>
+                        - langchain_core.messages<br>
+                        - pathlib<br>
+                        - langchain_community.document_loaders<br>
+                        - langchain.text_splitter<br>
+                        - langchain_community.vectorstores<br>
+                        - langchain_core.prompts<br>
+                        - langchain.chains.combine_documents<br>
+                        - langgraph.graph<br>
+                        - IPython.display<br><br>
+                        For you to RUN the code, you should:<br><br>
+                        - open this project link at your Google Colab account, after logging in;<br>
+                        - have your own valid Google Api Key for accessing Google AI services and add it to the secrets section of your Colab as GOOGLE_API_KEY. This environment variable is the one called at the application, when Gemini is to be used;<br>
+                        - upload the three sample policies' pdfs from the following link to your Colab account as well, so that this app can access them. The pdfs are available for download at: <a href="https://drive.google.com/drive/folders/1iXB7kdNcX3jsKbgvWncSu1nW5AU3Oi_Z">Project Policies' PDFs repository .</a><br><br>
+                        For you to simply SEE the code, just click on the following Colab link: <a href="https://colab.research.google.com/drive/1Yctdn_zHHQEzyIhSL6ODTgrskv_VKE_z">Project Colab Link .</a><br><br>
+                        Regards,<br><br>
+                        Daniel Pinheiro<br>
+                        danielpm1982.com
+                    </p>
+                </div>
+                <div>
+                    <a href="/">
+                        <img src="../../img/home.jpeg" title="Home" alt="Home" />
+                    </a>
+                </div>
+            </div>
+        </section>
+    </body>
+</html>
